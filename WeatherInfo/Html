@@ -20,16 +20,25 @@
 
         <h1>Weather Forecast</h1>
 
-        <div class="weather-data">
+         <div class="weather-data">
+            <label for="text" id="city" >Enter city name:</label>
+            <input type="text" id="location">
+        </div> 
 
-            <p> </p>
+        <div class="submit">
+            <button class="btn" type="Get">submit</button>
+        </div> 
 
-        </div>
+            <div class="temp" id="temp-value">0
+                <span id="unit">&#176</span>
+                <span id="c">C</span>
+            </div>
+            <div id="weather-type">Freezy</div>
 
     </div>
 
     <script src="script.js"></script>
-
+ 
 </body>
 
-</html>
+</html> 
